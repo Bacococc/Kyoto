@@ -1,0 +1,159 @@
+.scroll-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgb(255, 155, 201);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 40px;
+    font-size: 24px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.scroll-to-top:hover {
+    opacity: 1;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #ffffff;
+    background-image: url('폴더/배경화면.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+}
+
+.동방의비밀 {
+    position: fixed;
+    left: 0px; top: 600px;
+    color: rgb(255, 214, 233);
+    writing-mode: vertical-rl;
+}
+
+.박스 {
+    margin-top: 100px;
+    width: 100%; height: 80px;
+    background-color: rgb(23, 23, 23);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    float: left;
+    color: rgb(255, 155, 201); 
+    font-weight: bold;
+    font-size: 20px;
+    list-style: none;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-right: solid rgb(139, 139, 139) 1px;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+a { 
+    text-decoration: none; 
+    color: rgb(255, 155, 201); 
+}
+
+header {
+    background: rgb(255, 155, 201); 
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: fixed;
+    left: 0; top: 0; right: 0;
+    opacity: 0.8;
+    background: linear-gradient(to bottom, rgb(255, 155, 213) 0%, rgba(0, 0, 255, 0) 130%);
+}
+
+.섹션전체 {
+    margin: auto;
+    width: 80%;
+}
+
+section {
+    background: rgb(255, 246, 254);
+    margin: 20px 20px 20px 20px;
+    padding: 50px;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,0.1);
+    overflow: hidden;
+    border-radius: 20px;
+    border: solid rgb(79, 79, 79) 3px;
+    background-image: url('폴더/무늬.jpg');
+    border-left: 20px solid rgb(255, 155, 201);
+}
+
+hr {
+    background:rgb(255, 155, 201); 
+    height:1px;
+    border:0;
+}
+
+section > h1 {
+    color: rgb(255, 155, 201); 
+    text-align: center;
+}
+
+section > h2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 192, 221); 
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px;
+}
+
+section > p, h3 {
+    color: rgb(95, 39, 77);
+}
+
+.p부모 > p {
+    line-height: 40px;
+    font-size: 17px;
+    margin-top: 100px;
+    color: rgb(95, 39, 77);
+}
+
+img {
+    width: 500px; height: 350px;
+    float: left;
+    border-radius: 4%;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    object-fit: cover;
+    border: solid rgb(46, 46, 46) 3px;
+}
+
+footer {
+    background: rgb(225, 172, 197); 
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+    border-top: solid rgb(108, 108, 108) 3px;
+}
